@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-55.923622, -13.068293],  // INEXA CENTRO (lon, lat)
+          [-56.088996, -13.831226]   // INEXA MUTUM (lon, lat)
+        ]
+      },
+      "properties": {
+        "name": "Link INEXA CENTRO - INEXA MUTUM",
+        "color": "blue",  // Cor da linha
+        "width": 2        // Largura da linha
+      }
+    }
+  ]
+}
