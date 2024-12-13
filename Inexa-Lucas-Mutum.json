@@ -4,16 +4,27 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-55.923622, -13.068293],  // INEXA CENTRO (lon, lat)
-          [-56.088996, -13.831226]   // INEXA MUTUM (lon, lat)
-        ]
+        "type": "Point",
+        "coordinates": [-55.923622, -13.068293]
       },
       "properties": {
-        "name": "Link INEXA CENTRO - INEXA MUTUM",
-        "color": "blue",  // Cor da linha
-        "width": 2        // Largura da linha
+        "name": "INEXA CENTRO",
+        "description": "Ponto de acesso INEXA CENTRO",
+        "color": "blue",
+        "size": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-56.088996, -13.831226]
+      },
+      "properties": {
+        "name": "INEXA MUTUM",
+        "description": "Ponto de acesso INEXA MUTUM",
+        "color": "red",
+        "size": 10
       }
     }
   ]
